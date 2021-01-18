@@ -1,8 +1,8 @@
-import react from "react";
+import * as React from "react";
 import NewsCard from "../newsCards/newsCards";
 import "./cardGrid.css"
 
-export const GridCard = () => {
+const GridCard = (): JSX.Element => {
     return (
         <div className="grid">
             <NewsCard />
@@ -14,3 +14,5 @@ export const GridCard = () => {
         </div>
     )
 }
+
+export default GridCard;

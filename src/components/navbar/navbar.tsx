@@ -1,7 +1,7 @@
 import React from "react";
 import "./navbar.css";
 
-const Navbar = () => {
+const Navbar = (): JSX.Element => {
 	return (
 		<nav>
 			<label className="logo">
@@ -9,13 +9,13 @@ const Navbar = () => {
 			</label>
 			<ul>
 				<li>
-					<a href="#">Home</a>
+					<a href="#">Principal</a>
 				</li>
 				<li>
-					<a href="#">Replays</a>
+					<a href="#">Repeticiones</a>
 				</li>
 				<li>
-					<a href="#">News</a>
+					<a href="#">noticias</a>
 				</li>
 			</ul>
 		</nav>
